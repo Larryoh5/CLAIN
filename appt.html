@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family==Roboto:wght@300;400;500&family=Open+Sans:wght@200;300;500;700&display=swap" rel="stylesheet">
+
+     <title>Consultation</title>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="main.css">
+     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
+   <body>
+    <!--Top navigation-->
+    <nav class="navbar navbar-inverse  navbar-fixed-top"> 
+
+        <div class="header-line" id="hdr-lne">
+          <div id="call">
+           <img src="./images/CLAIN_graphics-21.png" style="width:11px"> Call: (123) 456 6789
+          </div>
+          <div id="loctn">
+            <img src="./images/CLAIN_graphics-23.png" style="width:11px"> Laurel, MD
+           </div>
+           <div id="time">
+            <img src="./images/CLAIN_graphics-22.png" style="width:13px"> Mon-Fri 9am-5pm
+           </div>
+
+           <div class="sc-med">
+            <a href="#"><img src="./images/CLAIN_graphics-24.png" style="width:20px"></a>
+           </div>
+        </div>
+        <hr>
+
+        <div class="main-nav">
+  
+          <div class="topnav1" id="myTopnav">
+
+           
+
+            <div class="menu">
+              <div class="logo">
+                <a href="./index.html" class="active-img"><img src="images/CLAIN_graphics-11.png" ></a>
+              </div>
+              <div class="nav-txt">
+                <div></div>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About CLAIN</a>
+                <a href="./services.html">Patient Services</a>
+                <a href="./team.html">Our Team</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./appt.html" class="appt">+ Set An Appointment</a>
+              </div>
+             
+
+              <a href="javascript:void(0);" id="myMenu" class="icon1" onclick="myButton();myFunctions()">
+                <div class="bar4"></div>
+                <div class="bar5"></div>
+                <div class="bar6"></div>
+               </a>
+            </div>
+  
+              
+            </div>
+        </div>
+        
+        </nav>
+    
+ <!-- End Header -->    
+    <!-- ======= Hero Section ======= -->
+   <!--Banner Section-->
+   <section class="sec-a-1">
+    <div class="sec-a-1-1">
+      <h1><span>CLAIN Behavioral Health</span><br><img src="./images/CLAIN_graphics-07.png" style="width: 5%; min-width: 45px; transform: scaleX(-1);">Set Appointment</h1>
+     
+     
+     </div>  
+    
+
+     <div class="overlay1"> </div>
+     <div class="overlay5"> </div>
+    <video autoplay loop muted poster="./images/Screenshot 2022-09-11 004023.png">
+      <source src="./images/mixkit-fish-tank-in-the-waiting-room-of-a-hospital-9384-medium.webm" type="video/webm"> 
+    <source src="./imagesmixkit-fish-tank-in-the-waiting-room-of-a-hospital-9384-medium.mp4" type="video/mp4">
+     </video>
+     
+  </section>
+
+<!--Application form begins-->
+   <!--Application form begins-->
+   <main role="main">
+   <div class="set-appt-form">
+
+          
+    <!--Breadcrumb Section-->  
+           <section>
+             <div class="breadcrumbs">
+               <span property="itemListElement" typeof="ListItem">
+                 <a property="item" typeof="WebPage" title="Go to Home." href="./index.html" class="Home">
+                   <span property="name">Home</span>
+                 </a>
+                 <meta property="position" content="1">
+               </span>
+               >
+               <span class="post pot-page current-item">Contact Us</span>
+             </div>
+           </section>
+ 
+         
+           
+           <!--Container for appointnemnt for begins here-->
+            <div class="container mt-4 p-4">
+             
+             <div class="row">
+                 <div class="col-md-6">
+                    
+                     <form>
+ <div class="input-form">
+ 
+ 
+                         <div class="form-group row">
+                             <label class="col-sm-4 col-lg-4">
+                                 Patient Name
+                             </label>
+                             <div class="col-sm-8 col-lg-8">
+                                 <input type="text" id="patient-name" class="form-control" placeholder="Name" required>
+                             </div>
+                         </div>
+ 
+                         <div class="form-group row">
+                             <label class="col-sm-4 col-lg-4">
+                                 Contact
+                             </label>
+                             <div class="col-sm-8 col-lg-8">
+                                 <input type="tel" id="contact" class="form-control" placeholder="123-456-7890" required>
+                             </div>
+                         </div>
+ 
+                         <div class="form-group row">
+                             <label class="col-sm-4 col-lg-4">
+                                 Date
+                             </label>
+                             <div class="col-sm-8 col-lg-8">
+                                 <input type="date" id="date" class="form-control" placeholder="Name" required>
+                             </div>
+                         </div>
+ 
+                         <div class="form-group row">
+                             <label class="col-sm-4 col-lg-4">
+                                 Time
+                             </label>
+                             <div class="col-sm-8 col-lg-8">
+                                 <input type="time" id="time" class="form-control" placeholder="Name" required>
+                             </div>
+                         </div>
+                    
+                     </div>
+                         <div class="form-group row row-1">
+                             <label class="col-sm-4 col-lg-4">
+                                Symptoms
+                             </label>
+                             <div class="col-sm-8 col-lg-8">
+                                <textarea id="symptoms" class="form-control"
+                                required></textarea>
+                             </div>
+                         </div>
+ 
+                   
+ <!---->
+ <div class="form-group row row-1">
+    <div class="col-sm-5">
+     <button type="submit" class="btn-0  btn-form">
+         <div> <span>Confirm</span>
+             <span class="btn1Before"></span>
+             <span class="btn1After"></span>
+         </div>
+         </button> 
+    </div>
+ </div>
+ 
+ </form>
+ </div>
+ 
+ <!---->
+ <div class="col-md-6">
+     <h2 id="services" class="text-center my-4"></h2>
+     <ul id="consultations" class="list-group">
+     </ul>
+ </div>
+               </div>
+            </div>
+ 
+         </div>  
+           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   <!-- Footer-->
+   <footer>
+    <div class="footer">
+              <div class="side-logo">
+                <img src="./images/CLAIN_graphics-18.png">
+                <p>Copyright © CLAIN 2022. All rights reserved</p>
+              </div>
+              
+    
+              <div class="bottom-info">
+                
+                  <div>Services</div>
+                  <div>Patient Services</div>
+                  <div>Appointments</div>
+                
+              </div>
+    
+              <div class="cnct-info">       
+                <div class="btn2">
+                <a href="#">
+                  <span >Contact</span>
+                  <span class="btn2Before"></span>
+                  <span class="btn2After"></span>
+              </a>
+              </div>or <br>Call Us: (410) 838-9500<br>12411 Cedarbrook Lane<br>Laurel. MD 20708</div>
+            </div>
+            <div class="bottom-info2">
+              <p>Privacy      |    Terms of Use     |     Compliance</p>
+            </div>
+            </footer>
+ 
+ 
+ </main>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       <script src="main.js"></script>
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    
+   </body>
+ </html>
